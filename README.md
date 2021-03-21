@@ -1,4 +1,4 @@
-# Plansys2_OPTIC_plugging
+# plansys2_optic_plugin 
 plugging for Plansys2 planner
 
 # Documentation
