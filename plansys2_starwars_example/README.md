@@ -1,8 +1,7 @@
 # PlanSys2 StarWars Example
 
 ## Description
-
-
+This is a simple example that shows the basic operation of PlanSys2 using a StarWars situation.
 
 ## How to run
 
@@ -17,7 +16,7 @@ In terminal 2:
 ```
 ros2 run plansys2_terminal plansys2_terminal        # enters in PlanSys2 Terminal
 set instance r2d2 robot
-set instance c3p0 robot
+set instance c3pO robot
 set instance Naboo planet
 set instance Tatooine planet
 set instance Kessel planet
