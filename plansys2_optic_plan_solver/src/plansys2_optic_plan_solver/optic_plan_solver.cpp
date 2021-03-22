@@ -56,7 +56,7 @@ OPTICPlanSolver::getPlan(
   problem_out.close();
 
   system(
-    ("optic /tmp/" + node_namespace + "/domain.pddl /tmp/" +
+    ("/home/pabs/optic/optic/build/bin/optic -N /tmp/" + node_namespace + "/domain.pddl /tmp/" +
     node_namespace + "/problem.pddl > /tmp/" + node_namespace + "/plan").c_str());
 
   std::string line;
@@ -115,7 +115,7 @@ OPTICPlanSolver::check_domain(
   problem_out.close();
 
   system(
-    ("optic /tmp/" + node_namespace + "/check_domain.pddl /tmp/" +
+    ("/home/pabs/optic/optic/build/bin/optic -N /tmp/" + node_namespace + "/check_domain.pddl /tmp/" +
     node_namespace + "/check_problem.pddl > /tmp/" + node_namespace + "/check.out").c_str());
 
   std::ifstream plan_file("/tmp/" + node_namespace + "/check.out");

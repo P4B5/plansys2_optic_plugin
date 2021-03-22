@@ -1,0 +1,19 @@
+set instance r2d2 robot
+set instance c3pO robot
+set instance Naboo planet
+set instance Tatooine planet
+set instance Kessel planet
+set instance Alderaan planet
+set instance milleniumFalcon spaceship
+set instance Xwing spaceship
+
+set predicate (robotAt r2d2 Naboo)
+set predicate (robotAt c3pO Tatooine)
+set predicate (spaceshipAt milleniumFalcon Alderaan)
+set predicate (spaceshipAt Xwing Kessel)
+
+set goal (and(robotAt r2d2 Tatooine)(robotAt c3pO Naboo))      
+
+run
+
+get plan
