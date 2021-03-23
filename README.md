@@ -24,6 +24,8 @@ planner:
 
 ```
 
+> modify lines 59 and 118 of plansys2_optic_plans_solver/src/optic_plan_solver.cpp to your correct path to the optic executable
+
 ```
 cd ~/your_ws
 colcon build --symlink-install
