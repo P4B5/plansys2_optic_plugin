@@ -3,7 +3,7 @@ OPTIC plugin for Plansys2 planner
 
 # Documentation
 
-This plugin is made for Plansys2: [Plansys2](https://github.com/IntelligentRoboticsLabs/ros2_planning_system), you must installed both plansys2 to try this plugin
+This plugin is made for [Plansys2](https://github.com/IntelligentRoboticsLabs/ros2_planning_system), you must installed both plansys2 to try this plugin
 
 To add plansys2 optic plugin to plansys2 
 
